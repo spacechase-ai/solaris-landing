@@ -2,10 +2,12 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
 .color-top {
-    background-color:#1F2937;
+    background-color:#001c41;
     color:#F9Faf8;
 }
 .header {
@@ -48,6 +50,7 @@ a {
     flex-direction: column;
     align-self: center;
     gap: 18px;
+    font-size: small;
     color: #E5E7EB;
     max-width: 700px;
     min-width: 300px;
@@ -69,9 +72,103 @@ a {
     height: 25px;
     color: white;
     background-color: #3882f6;
+    border-radius: 8px;
+    border: 0;
 }
 
-/*FORMAT BUTTON NEXT THEN MOVE TO ARRAY
+.hbutton:hover{
+    background: #629bf5;
+}
 
-Photo could be improved*/
+.himage{
+    box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.137);
+}
 
+img{
+    border-radius: 5px;
+}
+
+.array{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 36px 58px;
+    max-width: 1000px;
+    align-self: center;
+    color: #011C41;
+    font-size: 28px;
+}
+
+.array-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    font-size: small;
+    flex-wrap: wrap;
+    color: gray;
+    min-width: 350px;
+    gap: 0px 36px;
+}
+
+.iconone, .icontwo, .iconthree, .iconfour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 175px;
+    height: 250px;
+}
+
+p.imgtxt{
+    width: 150px;
+}
+
+.statement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #011C41;
+    padding: 0;
+    background-color: #e5e7eb;
+}
+
+.statelang{
+    margin: 0;
+    margin: 36px 48px 0px;
+    padding: 0;
+    max-width: 750px;
+    min-width: 350px;
+}
+.statename{
+    color: #011C41;
+    font-size: 24px;
+    font-style: normal;
+    font-weight:700;
+    text-align: right;
+    margin-bottom: 36px;
+    margin-right: 48px;
+    padding: 0;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.cta{
+    margin: 36px 48px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 0;
+}
+
+footer{
+    background-color:#001c41;
+    color:#F9Faf8;  
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+
+}
