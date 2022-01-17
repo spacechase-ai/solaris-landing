@@ -7,9 +7,9 @@ body {
 }
 
 .color-top {
-    background-color:#001c41;
     color:#F9Faf8;
     align-content: center;
+    background: url(./img/tech.jpeg) black;
 }
 .header {
     display: flex;
@@ -97,7 +97,7 @@ img{
     margin: 36px 58px;
     max-width: 1000px;
     align-self: center;
-    color: #011C41;
+    color: #0B2743;
     font-size: 28px;
 }
 
@@ -113,7 +113,7 @@ img{
 }
 
 strong{
-    color: #001c41;
+    color: #0B2743;
 }
 
 .iconone, .icontwo, .iconthree, .iconfour{
@@ -149,7 +149,7 @@ p.imgtxt{
     min-width: 350px;
 }
 .statename{
-    color: #011C41;
+    color: #0B2743;
     font-size: 24px;
     font-style: normal;
     font-weight:700;
@@ -164,7 +164,7 @@ p.imgtxt{
 .cta{
     margin: 36px 48px;
     color: white;
-    background-color: #3882f6;
+    background: url("./img/rnbw.jpeg") #3882f6;
     border-radius: 8px;
     border: 0;
     display: flex;
