@@ -4,11 +4,12 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-  }
+}
 
 .color-top {
     background-color:#001c41;
     color:#F9Faf8;
+    align-content: center;
 }
 .header {
     display: flex;
@@ -42,7 +43,7 @@ a {
     display: flex;
     margin: 0px 56px;
     height: 350px;
-    gap: 24px
+    gap: 24px;
 }
 
 .hleft{
@@ -111,6 +112,10 @@ img{
     gap: 0px 36px;
 }
 
+strong{
+    color: #001c41;
+}
+
 .iconone, .icontwo, .iconthree, .iconfour{
     display: flex;
     flex-direction: column;
@@ -128,7 +133,7 @@ p.imgtxt{
     flex-direction: column;
     align-items: center;
     margin: 0px 0px;
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     font-weight: lighter;
     color: #011C41;
@@ -138,7 +143,7 @@ p.imgtxt{
 
 .statelang{
     margin: 0;
-    margin: 36px 48px 0px;
+    margin: 48px 48px 0px;
     padding: 0;
     max-width: 750px;
     min-width: 350px;
@@ -149,7 +154,7 @@ p.imgtxt{
     font-style: normal;
     font-weight:700;
     text-align: right;
-    margin-bottom: 36px;
+    margin-bottom: 48px;
     margin-right: 48px;
     padding: 0;
     max-width: 1000px;
@@ -195,6 +200,10 @@ p.imgtxt{
     border-radius: 8px;
     border: 0;
     margin-right: 20px;
+}
+
+.ctabutton:hover{
+    background: #b6ccf0;
 }
 
 footer{
