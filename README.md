@@ -1,1 +1,1 @@
-# solaris-landing
+Landing page for a fictional B2B technology company, Solaris. Project demonstrates HTML and CSS skills to build a cohesive webpage.
